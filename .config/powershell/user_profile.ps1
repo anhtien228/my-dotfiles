@@ -16,11 +16,15 @@ Set-PSReadLineOption -BellStyle None
 Set-PSReadLineKeyHandler -Chord 'Ctrl+d' -Function DeleteChar
 Set-PSReadLineOption -PredictionSource History
 
+# Zoxide
+Invoke-Expression (& { (zoxide init powershell | Out-String) })
+
 # Fzf
 Import-Module PSFzf
 Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+f' -PSReadlineChordReverseHistory 'Ctrl+r'
 
 # Alias
+Set-Alias -Name vim -value nvim
 Set-Alias ll ls
 Set-Alias grep findstr
 

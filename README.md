@@ -1,6 +1,6 @@
 # Tien's dotfiles
 Storing all configurations for prompt engines that I have been used.
-Inspired from [devaslife's setup](https://github.com/craftzdog/dotfiles)
+Inspired from [devaslife's setup](https://github.com/craftzdog/dotfiles-public)
 
 # Contents
 - PowerShell config
