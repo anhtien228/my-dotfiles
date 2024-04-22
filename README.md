@@ -26,7 +26,7 @@ Inspired from [devaslife's setup](https://github.com/craftzdog/dotfiles)
   - Create new profile `user_profile.ps1`
   - Open root powershell, add
     ```shell
-    $profile = Join-Path $env:USERPROFILE '\.config\powershell\user_profile.ps1
+    $profile = Join-Path $env:USERPROFILE '\.config\powershell\user_profile.ps1'
     .$profile
     ```
     to assign default powershell with our customized profile (for syncing across devices with Git)
